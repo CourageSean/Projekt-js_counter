@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+div {
+  width: 400px;
+  border: solid black 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+
+  padding-bottom: 50px;
+}
+
+input {
+  width: 49%;
+  padding: 3px;
+  margin: 5px 0;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+}
